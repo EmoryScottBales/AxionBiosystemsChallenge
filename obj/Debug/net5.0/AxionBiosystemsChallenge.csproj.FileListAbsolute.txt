@@ -1,0 +1,16 @@
+/home/codespace/workspace/AxionBiosystemsChallenge/bin/Debug/net5.0/AxionBiosystemsChallenge
+/home/codespace/workspace/AxionBiosystemsChallenge/bin/Debug/net5.0/AxionBiosystemsChallenge.deps.json
+/home/codespace/workspace/AxionBiosystemsChallenge/bin/Debug/net5.0/AxionBiosystemsChallenge.runtimeconfig.json
+/home/codespace/workspace/AxionBiosystemsChallenge/bin/Debug/net5.0/AxionBiosystemsChallenge.runtimeconfig.dev.json
+/home/codespace/workspace/AxionBiosystemsChallenge/bin/Debug/net5.0/AxionBiosystemsChallenge.dll
+/home/codespace/workspace/AxionBiosystemsChallenge/bin/Debug/net5.0/ref/AxionBiosystemsChallenge.dll
+/home/codespace/workspace/AxionBiosystemsChallenge/bin/Debug/net5.0/AxionBiosystemsChallenge.pdb
+/home/codespace/workspace/AxionBiosystemsChallenge/obj/Debug/net5.0/AxionBiosystemsChallenge.csprojAssemblyReference.cache
+/home/codespace/workspace/AxionBiosystemsChallenge/obj/Debug/net5.0/AxionBiosystemsChallenge.GeneratedMSBuildEditorConfig.editorconfig
+/home/codespace/workspace/AxionBiosystemsChallenge/obj/Debug/net5.0/AxionBiosystemsChallenge.AssemblyInfoInputs.cache
+/home/codespace/workspace/AxionBiosystemsChallenge/obj/Debug/net5.0/AxionBiosystemsChallenge.AssemblyInfo.cs
+/home/codespace/workspace/AxionBiosystemsChallenge/obj/Debug/net5.0/AxionBiosystemsChallenge.csproj.CoreCompileInputs.cache
+/home/codespace/workspace/AxionBiosystemsChallenge/obj/Debug/net5.0/AxionBiosystemsChallenge.dll
+/home/codespace/workspace/AxionBiosystemsChallenge/obj/Debug/net5.0/ref/AxionBiosystemsChallenge.dll
+/home/codespace/workspace/AxionBiosystemsChallenge/obj/Debug/net5.0/AxionBiosystemsChallenge.pdb
+/home/codespace/workspace/AxionBiosystemsChallenge/obj/Debug/net5.0/AxionBiosystemsChallenge.genruntimeconfig.cache
