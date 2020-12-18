@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AxionBiosystemsChallenge.Migrations
 {
     [DbContext(typeof(SmallCoEmployeeDb))]
-    [Migration("20201217153106_InitialCreate")]
+    [Migration("20201218021834_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
