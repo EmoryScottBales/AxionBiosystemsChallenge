@@ -1,5 +1,5 @@
 # AxionBiosystemsChallenge
-Creates a command line searchable database of employee data for small co. from a CSV.  The projects uses the Microsoft.NETCore.App 5.0.0 runtime. The alternatives were an older .netcore, asp, xamarin (find a few others and compare pros and cons).  Asp is used for GUI based web applications, so I think the latest .NETCore and a console application fits the requirements better.
+Creates a command line searchable database of employee data for small co. from a CSV.  The projects uses the Microsoft.NETCore.App 5.0.0 runtime because a .NETCore console application best fits the requirements.
 
 ## Installation
 
@@ -32,8 +32,45 @@ dotnet ef database update
 ```
 
 ## Usage
+Once installation is complete, the following commands can be used to interact with the program.
+### Help Menu
+```
+dotnet run --h
+```
+or 
+```
+dotnet run -help
+```
+### Name Query
+```
+dotnet run -name '[lastname]'
+```
+or
+```
+dotnet run -Name '[lastname]'
+```
+The last name must be in quotes if it contains a white space. 
 
+Example: ```dotnet run -name Willshee```
+
+### ID Query
+```
+dotnet run -id [number]
+```
+or
+```
+dotnet run -ID [number]
+```
+Example: ```dotnet run -id 1```
+
+### Name and ID Query
+```
+dotnet run -name '[lastname]' -id [number]
+```
+Example: ```dotnet run -name Willshee -id 5```
 ## Design Considerations
 
-Used code from https://www.codeproject.com/articles/415732/reading-and-writing-csv-files-in-csharp
+- Used code from https://www.codeproject.com/articles/415732/reading-and-writing-csv-files-in-csharp
 to ingest the csv file of employee data and convert to database tables.
+- Assuming program should query the db and not modify either the db or the original csv.
+- Db queries return first matching entry for both -id and -name args.  If both args are specified, program returns two (possibly identical) db entries if they exist.
