@@ -36,4 +36,4 @@ dotnet ef database update
 ## Design Considerations
 
 Used code from https://www.codeproject.com/articles/415732/reading-and-writing-csv-files-in-csharp
-to ingest the csv file of employee data and covert to database tables.
+to ingest the csv file of employee data and convert to database tables.
