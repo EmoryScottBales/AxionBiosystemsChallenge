@@ -12,7 +12,8 @@ namespace AxionBiosystemsChallenge.Migrations
                 {
                     ID = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Name = table.Column<string>(type: "TEXT", nullable: true),
+                    FirstName = table.Column<string>(type: "TEXT", nullable: true),
+                    LastName = table.Column<string>(type: "TEXT", nullable: true),
                     Birthday = table.Column<string>(type: "TEXT", nullable: true),
                     Department = table.Column<string>(type: "TEXT", nullable: true),
                     FavBook = table.Column<string>(type: "TEXT", nullable: true)

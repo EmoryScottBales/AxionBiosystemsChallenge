@@ -12,7 +12,8 @@ namespace AxionBiosystemsChallenge
 
     public class Employee
     {
-        public string Name { get; set;}
+        public string FirstName { get; set;}
+        public string LastName { get; set;}
         public int ID { get; set;}
         public string Birthday { get; set;} // might be a number but it has slashes
         public string Department { get; set;}

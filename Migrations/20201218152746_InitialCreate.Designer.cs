@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AxionBiosystemsChallenge.Migrations
 {
     [DbContext(typeof(SmallCoEmployeeDb))]
-    [Migration("20201218021834_InitialCreate")]
+    [Migration("20201218152746_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,7 +32,10 @@ namespace AxionBiosystemsChallenge.Migrations
                     b.Property<string>("FavBook")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("FirstName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("LastName")
                         .HasColumnType("TEXT");
 
                     b.HasKey("ID");

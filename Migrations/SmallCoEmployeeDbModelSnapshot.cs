@@ -30,7 +30,10 @@ namespace AxionBiosystemsChallenge.Migrations
                     b.Property<string>("FavBook")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("FirstName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("LastName")
                         .HasColumnType("TEXT");
 
                     b.HasKey("ID");
